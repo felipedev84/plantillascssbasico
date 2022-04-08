@@ -1,0 +1,304 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header{
+    background: linear-gradient(205deg, #333 16%, orange 100%);
+    text-align: center;
+    line-height: 100px;
+    height: 40vh;
+}
+
+.header .image-header{
+    margin-top: 40px;
+}
+
+.header .paragraph-header{
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.header .paragraph-second{
+    color: #333;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.section-btc-img{
+    text-align: center;
+}
+
+.section-btc-img .image-btc{
+    width: 25%;
+    height: 25%;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+ .section-btc-img .subtitle-btc{
+    background: white;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 100%);
+    top: -20px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.section-btc-img .paragraph-section{
+    color: #333;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+
+.section-btc-img .second-text{
+    color: #808080;
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+
+.paragraph-section, .second-text{
+    line-height: 100px;
+}
+
+.section-tables{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 700px;
+    place-items: center;
+    margin: 0 auto;
+}
+
+.container-table .subtitle-table{
+    color: orange;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container-table .table{
+    margin: 10px;
+}
+
+.container-table .table tr{
+    background: sandybrown;
+}
+
+.container-table .table tr td{
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+.container-table .footer{
+    background: skyblue;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.div-background{
+    background: #333;
+    height: 70vh;
+    margin-top: 50px;
+}
+
+.div-background .logo-section-info{
+    margin: 0 auto;
+    width: 40px;
+    position: relative;
+    top: -10px;
+}
+
+.section-overview{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.section-overview .section-info{
+    box-shadow:0px 4px 8px rgb(0 0 0 / 100%);
+    padding: 30px;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.section-info .clock{
+    background-image: url('../assets_bk/icons/clock.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.section-info .dollar{
+    background-image: url('../assets_bk/icons/dollar-sign.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.section-info .check{
+    background-image: url('../assets_bk/icons/check-circle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.section-info .eye{
+    background-image: url('../assets_bk/icons/eye.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+
+.section-info .subtitle-section{
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.section-info .paragraph-info{
+    color: #808080;
+    font-size: 1rem;
+    font-weight: bolder;
+    line-height: 20px;
+}
+
+.section-back-img{
+    background-image: url('../assets_bk/img/bitcoinbaby2x.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 500px;
+}
+
+.section-planes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    width: 800px;
+    margin: 0 auto;
+    place-items: center;
+    margin-top: 40px;
+    
+    
+}
+
+
+.plan{
+    background:white;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 100%);
+    
+}
+
+.plan .subtitle-plan{
+    background: orange;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    top: -50px;
+
+}
+
+.plan .paragraph-pay{
+    color:#333;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.plan .paragraph-price{
+    color: #333;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.plan .paragraph-description{
+    color: #808080;
+    font-size: 1rem;
+    font-weight: bolder;
+
+}
+
+.paragraph-pay,.paragraph-price, .paragraph-description{
+    line-height: 40px;
+}
+
+.plan .ancla-plan{
+    border: 1px solid orange;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+footer{
+background: orange;
+display: flex;
+margin-top: 40px;
+height: 200px;
+}
+
+footer .redes-sociales{
+    display: flex;
+    width: 50%;
+    place-content: center;
+    place-items: center;
+}
+
+.redes-sociales ul li{
+    list-style-type: none;
+}
+
+.redes-sociales ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+
+}
+
+.section-logo-footer{
+    display: flex;
+    width: 50%;
+    place-content: center;
+    place-items: center;
+}

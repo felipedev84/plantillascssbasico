@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --first-color:#76D7C4;
+    --second-color:#1ABC9C;
+    --third-color:#0E6251;
+    --four-color:#48C9B0;
+}
+
+body{
+    margin: 10px;
+    background: linear-gradient(to top, #76D7C4,#1ABC9C,#0E6251,#48C9B0);
+}
+
+.div-container-grid{
+    display: grid;
+    grid-template: repeat(10, 1fr)/repeat(10,1fr);
+    height: 100vh;
+    
+}
+
+
+.div-items-1{
+    place-items: end;
+    display: grid; 
+    background:var(--four-color);
+    grid-column: 3;
+    grid-row: 3;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 100%);
+}
+
+.div-items-1 .paragraph-name{
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+
+.div-items-2{
+    background:var(--second-color);
+    grid-column: 1 / 2;
+    grid-row: 5 / 10;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 100%);
+}
+
+
+.div-items-3{
+    background: var(--first-color);
+    grid-column: 1 / 4;
+    grid-row: 7 / 9;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 100%);
+}
+
+.div-items-4{
+    background: var(--third-color);
+    grid-column: 5 / 8;
+    grid-row: 6 / 11;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 100%);
+
+}
+
+.div-items-5{
+    border: 5px solid #76D7C4;
+    grid-column: 6/9;
+    grid-row: 5 / 8;
+    position: relative;
+    z-index: -2;
+}
+
+.div-items-6{
+    border: 5px solid #76D7C4;
+    grid-column: 7 / 10;
+    grid-row: 3 /10;
+    position: relative;
+    z-index: -2;
+}
+
+.div-items-7{
+    display: grid;
+    grid-column: 6/9;
+    grid-row: 4;
+    place-items: center;
+}
+
+.div-items-7 .paragraph-text{
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+

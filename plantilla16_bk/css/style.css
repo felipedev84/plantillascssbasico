@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root{
+    --first-color:#76D7C4;
+    --second-color:#D1F2EB;
+    --third-color:#3498DB;
+    --four-color:#626567;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.header-icons{
+    background: #76D7C4;
+    height: 60px;
+    display: flex;
+    place-items: center;
+    place-content: end;
+}
+
+
+.header-icons .list-order{
+    margin-right: 60px;
+}
+
+.header-icons .list-order .twitter{
+    background-image: url('../assets/img/gorjeo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+} 
+
+.header-icons .list-order .link{
+    background-image: url('../assets/img/linkedin.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+} 
+
+.header-icons .list-order .face{
+    background-image: url('../assets/img/facebook.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+} 
+
+.header-icons .list-order .tik-tok{
+    background-image: url('../assets/img/tik-tok.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+} 
+
+.header-icons .list-order .instagram{
+    background-image: url('../assets/img/instagram.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+} 
+
+.list-order span{
+    margin: 10px;
+    
+}
+
+.section-overview{
+    background: seashell;
+    height: 100px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-content: center;
+    
+}
+
+
+ .section-logo{
+    display: grid;
+    place-items: start;
+}
+
+
+
+.section-logo .paragraph-logo{
+    color: #333;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-decoration-line: underline;
+    margin-left: 70px;
+}
+
+.section-logo-2{
+    display: grid;
+    place-items: end;
+}
+
+.section-logo-2 .paragraph-logo-2{
+    color: #333;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-decoration-line: underline;
+    margin-right: 70px;
+}
+
+.section-background{
+    background-image: url('../assets/img/astronauta.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    place-items: center;
+    
+}
+
+.section-background .paragraph-header{
+    color: white;
+    grid-column: 2 / 3;
+    font-size: 3rem;
+    font-weight: bolder;
+    width: 500px;
+    text-align: center;
+    
+}
+
+.section-background .btn{
+    background: var(--first-color);
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 10px;
+    grid-column: 2 / 3;
+    border: none;
+    margin-bottom: 300px;
+}
+
+.section-background .ancla-button{
+    text-decoration: none;
+    color: white;
+}

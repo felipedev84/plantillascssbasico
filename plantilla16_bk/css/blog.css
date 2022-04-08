@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root{
+    --first-color:#76D7C4;
+    --second-color:#D1F2EB;
+    --third-color:#3498DB;
+    --four-color:#626567;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: block;
+}
+
+.header-icons{
+    background: #76D7C4;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    place-items: center;
+    place-content: end;
+    position: fixed;
+    top: 0;
+}
+
+
+.header-icons .list-order{
+    margin-right: 60px;
+}
+
+.header-icons .list-order .twitter{
+    background-image: url('../assets/img/gorjeo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+} 
+
+.header-icons .list-order .link{
+    background-image: url('../assets/img/linkedin.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+} 
+
+.header-icons .list-order .face{
+    background-image: url('../assets/img/facebook.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+} 
+
+.header-icons .list-order .tik-tok{
+    background-image: url('../assets/img/tik-tok.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+} 
+
+.header-icons .list-order .instagram{
+    background-image: url('../assets/img/instagram.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+} 
+
+.list-order span{
+    margin: 10px;
+    
+}
+
+.section-intro{
+    background: seashell;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    height: 100px;
+    margin-top: 40px;
+    place-content: center;
+}
+
+.section-1{
+    display: grid;
+    place-items: start;
+}
+
+.section-1 .paragraph-1{
+    color: #333;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-decoration-line:underline;
+    margin-left: 70px;
+}
+
+.section-2{
+    display: grid;
+    place-items: end;
+}
+
+.section-2 .paragraph-2{
+    color: #333;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-decoration-line: underline;
+    margin-right: 70px;
+}
+
+.background{
+    background-image: url('../assets/img/cubo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+} 
+
+
+.title-main{
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-decoration-line: underline;
+}
+
+
+main{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.article .title{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #333;
+
+
+}
+
+.article .paragraph-main{
+    color: #333;
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 40px;
+    text-align: justify;
+    margin: 100px;
+    margin-top: 30px;
+}
+
+.section-contacts{
+    display: flex;
+    place-content: center;
+    place-items: center;
+    background: seashell;
+    height: 200px;
+}
+
+.section-logo{
+    margin: 80px;
+}
+
+.section-logo .logo-folder{
+    background-image: url('../assets/img/logo-folder.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: -30px;
+}
+
+
+.section-logo .logo-heart{
+    background-image: url('../assets/img/logo-gmail.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: -30px;
+}
+
+.section-contacts .subtitle-contact{
+    color: #333;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-decoration-line: underline;
+}
+
+.section-contacts .paragraph-contact{
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+footer{
+    background: var(--first-color);
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+}
